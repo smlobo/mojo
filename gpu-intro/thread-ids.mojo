@@ -1,5 +1,4 @@
-from sys import has_accelerator
-from sys import exit
+from sys import has_accelerator, exit
 
 from gpu.host import DeviceContext
 from gpu import block_idx, thread_idx
