@@ -1,5 +1,5 @@
 
-fn main():
+def main():
     for i in range(5):
         print(i, end=", ")
     else:
@@ -11,7 +11,7 @@ fn main():
     else:
         print("Finished executing (empty) 'for' loop")
 
-    animals = ["cat", "aardvark", "hippopotamus", "dog"]
+    var animals = ["cat", "aardvark", "hippopotamus", "dog"]
     for animal in animals:
         print(t"{animal}", end=", ")
         if animal == "dog":

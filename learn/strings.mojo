@@ -1,5 +1,5 @@
 
-fn main():
+def main():
     # Manual positional indeing
     print("Positional 1, 0, 1: {1} {0} {1}".format("pos0", 1))
 

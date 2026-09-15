@@ -1,5 +1,5 @@
 
-fn main():
+def main():
     # Variable ownership
     var xIntList: List[Int] = [1, 2, 3]
     for i in xIntList:

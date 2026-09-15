@@ -1,13 +1,13 @@
 from mymodule import MyPair
 from std.memory import Pointer
 
-fn main():
+def main():
     var mine = MyPair(2, 4)
     mine.dump()
-    foos = Pointer(to=mine)
+    var foos = Pointer(to=mine)
     foo(foos)
 
-fn foo(ptr: Pointer[MyPair]):
+def foo(ptr: Pointer[MyPair, _]):
     # ptr[].second += 10
     var copyFirst: Int = ptr[].first
     print(t"In foo: first = {copyFirst}")

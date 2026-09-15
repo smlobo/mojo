@@ -1,6 +1,6 @@
 from mymodule import MyPair
 
-fn callee(var calleeOwner: MyPair) -> MyPair:
+def callee(var calleeOwner: MyPair) -> MyPair:
     calleeOwner.first += 10
     calleeOwner.second += 20
     print("calleeOwner: ", end="")
@@ -8,7 +8,7 @@ fn callee(var calleeOwner: MyPair) -> MyPair:
     # Pass ownership back to main()
     return calleeOwner^
 
-fn main():
+def main():
     var owner1 = MyPair(100, 200)
     print("owner1: ", end="")
     owner1.dump()

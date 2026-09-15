@@ -1,6 +1,6 @@
 from mymodule import MyPair
 
-fn main():
+def main():
     var mine = MyPair(2, 4)
     mine.dump()
 

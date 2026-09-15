@@ -1,4 +1,4 @@
 
-fn main():
+def main():
     print("Hello Mojo")
 
